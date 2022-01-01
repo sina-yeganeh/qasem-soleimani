@@ -8,6 +8,11 @@
   src: url("../fonts/BrandonGrotesque/BrandonGrotesque-Black.woff");
 }
 
+@font-face {
+  font-family: bg-bold;
+  src: url("../fonts/BrandonGrotesque/BrandonGrotesque-Bold.woff");
+}
+
 body {
   margin: 0;
   font-family: bg;
@@ -37,7 +42,7 @@ a {
 
 .btns {
   display: flex;
-  margin-top: 60px;
+  margin-top: 41px;
 }
 
 .more {
@@ -111,6 +116,7 @@ a {
 
 .text {
   opacity: 0.9;
+  font-family: bg-bold;
 }
 
 .github {
