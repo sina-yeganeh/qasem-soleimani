@@ -1,2 +1,1 @@
-# Qasem-Soleimani
-A website just for Qasem Soleimani
+<h1 align="center">:heart: Qasem Soleimani :heart:</h1>
