@@ -1,1 +1,5 @@
-<h1 align="center">:heart: Qasem Soleimani :heart:</h1>
+<h1 align="center">Qasem Soleimani</h1>
+<p align="center">
+  <b><a href="">visit</a> ◾ <a href="">about</a> ◾ <a href="">donate</a></b>
+</p>
+
