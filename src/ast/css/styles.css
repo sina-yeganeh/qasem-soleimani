@@ -1,0 +1,133 @@
+@font-face {
+  font-family: bg;
+  src: url("../fonts/BrandonGrotesque/BrandonGrotesque-Regular.woff");
+}
+
+@font-face {
+  font-family: bg-black;
+  src: url("../fonts/BrandonGrotesque/BrandonGrotesque-Black.woff");
+}
+
+body {
+  margin: 0;
+  font-family: bg;
+  /* background-image: url("../images/background.jpg");
+  background-repeat: no-repeat; */
+  background-color: rgb(238, 238, 238);
+  color: rgb(10, 10, 10);
+  font-size: 18px;
+}
+
+button {
+  font-family: bg;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btns {
+  display: flex;
+  margin-top: 60px;
+}
+
+.more {
+  background-color: rgb(0, 120, 212);
+  color: white;
+}
+
+.more:hover {
+  background-color: rgb(0, 96, 170);
+}
+
+.donate:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.donate {
+  margin-left: 10px;
+}
+
+.donate > a {
+  color: black;
+}
+
+.main {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 693px;
+  background-color: white;
+  box-shadow: gray 3px 3px 10px;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 10%;
+  padding: 20px;
+}
+
+.desc {
+  margin-left: 20px;
+}
+
+.qasem {
+  width: 300px;
+  height: inherit;
+  border-radius: 5px;
+  box-shadow: gray 1px 1px 5px;
+}
+
+.name {
+  font-family: bg-black;
+  text-align: center;
+  margin-top: -1px;
+  opacity: 0.95;
+}
+
+.under-text {
+  opacity: 0.8;
+  margin-top: -20px;
+}
+
+.martyr {
+  color: rgb(255, 22, 22);
+}
+
+.text {
+  opacity: 0.9;
+}
+
+.github {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 10px 3px 10px;
+  width: auto;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.github:hover {
+  opacity: 0.9;
+}
+
+.github > img {
+  width: 40px;
+  height: inherit;
+}
